@@ -1,0 +1,94 @@
+body{
+  background-color: #0E0E0E;
+}
+
+
+.logo{
+  width: 490px;
+}
+
+.main-side{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.arte{
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.descricao{
+  color: whitesmoke;
+  font-size: 30px;
+  max-width: 780px;
+}
+.cib{
+  color: whitesmoke;
+  font-size: 40px;
+  max-width: 780px;
+  margin-top: 12px;
+}
+.sobre{
+  color: #7D7A87;
+margin-top: 20px;
+font-size: 20px;
+max-width: 700px;
+}
+
+.registro{
+  margin-top: 30px;
+  
+}
+
+input{
+  display: flex;
+  width: 200%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #FFFF;
+  color: black;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box
+}
+button{
+  display: flex;
+  width: 50%;
+  padding: 18px;
+  margin-left: 325px;
+  border: none;
+ border-radius: 8px;
+ outline: none;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 3px;
+ color: #2b134b;
+ background: #77ffc0;
+ cursor: pointer;
+ box-shadow: 0px 10px 40px -12px #00ff0052 ;
+ margin-top: 27px;
+}
+
+.Cadastro{
+  display: flex;
+  flex-direction: row;
+  max-width: 2000px;
+}
+
+
+
